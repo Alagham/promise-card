@@ -14,6 +14,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/create-card" element={<CardCreation />} />
+          
         </Routes>
       </Router>
     </>
